@@ -1,0 +1,380 @@
+
+
+.App-logo {
+  height: 7vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.rwhat{
+  font-size: 14px;
+  margin-left: 14px;
+}
+
+.App-header {
+
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+display: flex;
+background-color: rgba(0, 0, 0, 0.868);
+color: white;
+align-items: center;
+  font-size: calc(10px + 2vmin);
+ padding-left: 40px;
+}
+
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.most-outer{
+  display: flex;
+ height:590px;
+}
+.most-outer-1{
+  display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+  background-color: rgba(0, 0, 0, 0.868);
+  padding-bottom: 15px;
+  padding-top: 10px;
+}
+
+.outer-11{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.outer-12{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.call2{
+  width:20px;
+}
+.story{
+  width:30px
+}
+.star{
+  width:25px
+}.archieved{
+  width:55px
+}.setting{
+  width:30px
+}
+.newchat{
+  width:40px
+}
+.newchat2{
+  width:40px;
+  margin-right: 7px;
+}
+.most-outer-2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+background-color:rgba(0, 0, 0, 0.819); ;
+border:solid 1px black
+}
+.most-outer-21{
+  display: flex;
+  flex-direction: row;
+
+width:370px;
+justify-content: space-between;
+padding-left: 10px;
+padding-right: 10px;
+color:white;
+}
+.filter{
+  width: 30px;
+}
+.most-outer-212{
+  display: flex;
+  align-items: center;
+
+}
+.most-outer-3{
+ background-color: brown;
+  width: 100%;
+  border:solid 1px black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.input{
+  width:300px;
+  padding-left: 20px;font-size: 17px;
+  border-bottom:solid 3px rgb(11, 236, 11);
+  border-left: solid 2px rgba(0, 0, 0, 0.619);
+  border-top: solid 2px rgba(0, 0, 0, 0.619);
+  border-right: solid 2px rgba(0, 0, 0, 0.619);
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 7px;
+}
+.list{
+  display: flex;
+  align-items: center;
+  width:320px;
+  height: 80px;
+ cursor: pointer;
+   border-radius: 10px;
+}
+.list:hover{
+  background-color:rgba(98, 95, 95, 0.819);
+}
+.list-img{
+  width:50px;
+  height: 50px;
+  border-radius: 140px;
+}
+.about{
+  color: white;
+}
+.name-time{justify-content: space-between;
+  display: flex;
+  width:240px;
+
+ 
+}
+.description{
+  position: relative;
+  top:-30px;
+  color: rgba(255, 255, 255, 0.331);
+}
+.about{
+  margin-left: 20px;
+  position: relative;
+  top:10pxs
+}
+.light-black{
+  color: rgba(255, 255, 255, 0.331);
+}
+.most-outer-23{
+  padding-top: 20px;
+}
+.outer-3-header{
+  position: fixed;
+  display: flex;
+}
+
+.outer-31{
+  padding: 10px;
+  display: flex;
+ 
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+   background-color: rgba(0, 0, 0, 0.97);
+   color:white
+}
+.c-video{
+  width:35px;
+margin-right: 13px;
+}
+.c-call{
+  width:35px;
+  
+}
+.c-search{
+  width:35px;
+  
+}
+.v-c{
+  margin-right: 6px;
+}
+.v-c-s{
+   display: flex;
+   position: relative;
+   left:650px
+}
+.mar{
+  margin-left: 10px;
+}
+.emoji{
+  width:40px;
+}
+.add{
+  width:40px;
+}
+.voice{
+  width:40px;
+}
+.input-2{
+  width:650px;
+  padding:9px;
+  border-radius: 9px;
+}
+.lower{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.display-chats{
+  width:100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.47);
+  display: flex;
+  flex-direction: column;
+
+}
+.web{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 70px;
+  justify-content: space-evenly;
+}
+.i-t{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+.send{
+  color: rgba(255, 255, 255, 0.37);
+}
+.use{
+  position: relative;
+  top:-30px;
+  color:rgba(255, 255, 255, 0.37);
+}
+
+.ttext{
+  border-radius: 10px;
+  display: inline-block;
+  padding-left:4px;
+  padding-right: 4px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+color:white;
+background-color: rgba(0, 128, 0, 0.482);
+
+}
+.num{
+  color:white;
+  margin-left: 10px;
+ border-radius: 10px;
+  display: inline-block;
+  padding-left:4px;
+  padding-right: 4px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  background-color: rgba(0, 128, 0, 0.482);
+}
+.text{
+  display: flex;
+  justify-content: space-between;
+  padding-right: 10px;
+}
+
+#loader{
+  display: flex;
+  justify-content: center;
+  background-color: #fff;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 7777;
+  animation:anim2 2s cubic-bezier(0.445, 0.05, 0.55, 0.95) 10s both ;
+}
+#wrapper{
+ width: 500px;
+  height: 100px;
+  overflow: hidden;
+}
+
+#wrapper .elem{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+width:100%;
+height:100%;
+
+}
+#wrapper .elem:nth-child(1){
+  animation:anim 2s cubic-bezier(0.23,1,0.320,1) 3s both ;
+}
+#wrapper .elem:nth-child(2){
+  animation:anim 2s cubic-bezier(0.23,1,0.320,1) 5s both ;
+}
+#wrapper .elem:nth-child(3){
+  animation:anim 2s cubic-bezier(0.23,1,0.320,1) 6s both ;
+}
+#wrapper .elem:nth-child(4){
+  animation:anim 2s cubic-bezier(0.23,1,0.320,1) 7s both ;
+}
+#wrapper .elem:nth-child(5){
+  animation:anim 2s cubic-bezier(0.23,1,0.320,1) 9s both ;
+}
+
+#wrapper .elem h2{
+  font-size: 30px;
+  font-weight: 700;
+}
+
+#wrapper #krn{
+  font-size: 50px;
+  font-family: cursive;
+  color: green;
+}
+
+#wrapper .lucky{
+  font-size: 50px;
+  font-family: cursive;
+  color: green;
+}
+
+@keyframes anim{
+  to{
+     margin-top: -100px;
+  }
+}
+@keyframes anim2{
+  to{
+     transform: translateY(-100%);
+  }
+}
+
+.app-logo{
+  height: 16vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .app-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.today{
+  display: flex;
+ height: 60px;
+ margin-left: 5px;
+  margin-top: 7px;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(165, 42, 42, 0.818);
+  color: yellow;
+  width:800px;
+  border-radius: 20px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
